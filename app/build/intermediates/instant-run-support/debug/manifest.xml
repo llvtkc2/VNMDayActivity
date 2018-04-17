@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chau.nguyen"
+    android:versionCode="23"
+    android:versionName="1.4.7" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="5" />
+    <!-- <uses-permission android:name="android.permission.VIBRATE" /> -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="chau.nguyen.VNMDayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="chau.nguyen.VNMMonthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="chau.nguyen.VNMEventDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="chau.nguyen.DayInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="chau.nguyen.calendar.appwidget.MonthWidgetConfigure"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="chau.nguyen.calendar.appwidget.DayWidgetProvider"
+            android:label="@string/day_widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/day_widget_info" />
+        </receiver>
+        <receiver
+            android:name="chau.nguyen.calendar.appwidget.XlargeDayWidgetProvider"
+            android:label="@string/day_xlarge_widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/day_xlarge_widget_info" />
+        </receiver>
+        <receiver
+            android:name="chau.nguyen.calendar.appwidget.MonthWidgetProvider"
+            android:label="@string/month_widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/month_widget_info" />
+        </receiver>
+        <receiver
+            android:name="chau.nguyen.calendar.appwidget.SmallMonthWidgetProvider"
+            android:label="@string/small_month_widget_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/small_month_widget_info" />
+        </receiver>
+        <!--
+        <receiver android:name=".calendar.appwidget.SmallDayWidgetProvider"
+          android:label="@string/small_day_widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/small_day_widget_info" />
+        </receiver>
+        <receiver android:name=".calendar.appwidget.FamousWordsWidgetProvider"
+		  android:label="@string/famous_words_widget_name">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		               android:resource="@xml/famous_words_widget_info" />
+		</receiver>
+		<service
+            android:label="@string/lichviet_wallpaper1"
+            android:icon="@drawable/icon"
+            android:name=".livewallpaper.LichVietLiveWallpaper"
+            android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/lichviet_live_wallpaper1" />
+        </service>
+        -->
+        <provider
+            android:name="chau.nguyen.calendar.content.LocalFileContentProvider"
+            android:authorities="chau.nguyen.calendar.localfile" />
+
+        <!-- The application's publisher ID assigned by AdMob -->
+        <meta-data
+            android:name="ADMOB_PUBLISHER_ID"
+            android:value="a14c78df772c942" />
+
+        <!-- AdMobActivity definition -->
+        <activity
+            android:name="com.admob.android.ads.AdMobActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <!-- Track Market installs -->
+        <receiver
+            android:name="com.admob.android.ads.analytics.InstallReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"
+            android:value="true" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="chau.nguyen.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

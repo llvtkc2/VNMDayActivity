@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\build\\intermediates\\res\\merged\\debug\\raw-ldpi-v4\\transparent_light.theme",
+        "source": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\src\\main\\res\\raw-ldpi-v4\\transparent_light.theme"
+    },
+    {
+        "merged": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\build\\intermediates\\res\\merged\\debug\\raw-ldpi-v4\\dark.theme",
+        "source": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\src\\main\\res\\raw-ldpi-v4\\dark.theme"
+    },
+    {
+        "merged": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\build\\intermediates\\res\\merged\\debug\\raw-ldpi-v4\\transparent_dark.theme",
+        "source": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\src\\main\\res\\raw-ldpi-v4\\transparent_dark.theme"
+    },
+    {
+        "merged": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\build\\intermediates\\res\\merged\\debug\\raw-ldpi-v4\\light.theme",
+        "source": "C:\\Users\\HP 6300 Pro\\Desktop\\Hoang\\Project\\VNMDayActivity\\app\\src\\main\\res\\raw-ldpi-v4\\light.theme"
+    }
+]

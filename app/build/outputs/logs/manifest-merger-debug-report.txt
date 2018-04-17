@@ -1,0 +1,178 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:2:1-124:12
+	package
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:3:7-28
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:5:7-34
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:4:7-31
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:7:5-72
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:7:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:8:2-70
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:8:19-67
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:11:5-116:19
+	android:label
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:11:48-80
+	android:icon
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:11:18-47
+activity#chau.nguyen.VNMDayActivity
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:12:9-16:20
+	android:screenOrientation
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:14:19-55
+	android:label
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:13:19-51
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:12:19-49
+activity#chau.nguyen.VNMMonthActivity
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:17:3-22:14
+	android:screenOrientation
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:17:46-82
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:17:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:18:4-21:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:19:5-57
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:19:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:20:15-62
+activity#chau.nguyen.VNMEventDetailsActivity
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:23:3-24:14
+	android:screenOrientation
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:23:53-89
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:23:13-52
+activity#chau.nguyen.DayInfoActivity
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:25:3-84
+	android:screenOrientation
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:25:45-81
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:25:13-44
+activity#chau.nguyen.calendar.appwidget.MonthWidgetConfigure
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:27:3-32:14
+	android:theme
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:28:9-68
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:27:13-68
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:29:7-31:23
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:30:11-81
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:30:19-78
+receiver#chau.nguyen.calendar.appwidget.DayWidgetProvider
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:34:3-41:14
+	android:label
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:35:5-44
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:34:13-65
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:36:7-38:23
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:37:11-78
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:37:19-75
+meta-data#android.appwidget.provider
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:39:7-40:60
+	android:resource
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:40:18-57
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:39:18-59
+receiver#chau.nguyen.calendar.appwidget.XlargeDayWidgetProvider
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:42:9-49:20
+	android:label
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:43:11-57
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:42:19-77
+receiver#chau.nguyen.calendar.appwidget.MonthWidgetProvider
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:51:3-58:20
+	android:label
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:52:11-52
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:51:13-67
+receiver#chau.nguyen.calendar.appwidget.SmallMonthWidgetProvider
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:60:9-67:20
+	android:label
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:61:11-58
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:60:19-78
+provider#chau.nguyen.calendar.content.LocalFileContentProvider
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:96:3-97:64
+	android:authorities
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:97:9-61
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:96:13-70
+meta-data#ADMOB_PUBLISHER_ID
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:100:3-82
+	android:value
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:100:14-45
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:100:46-79
+activity#com.admob.android.ads.AdMobActivity
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:103:3-105:66
+	android:configChanges
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:105:4-63
+	android:theme
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:104:4-62
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:103:13-63
+receiver#com.admob.android.ads.analytics.InstallReceiver
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:108:3-113:14
+	android:exported
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:109:4-27
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:108:13-75
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:110:4-112:20
+action#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:111:5-67
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:111:13-64
+meta-data#ADMOB_ALLOW_LOCATION_FOR_ADS
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:115:3-80
+	android:value
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:115:14-34
+	android:name
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:115:35-78
+supports-screens
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:117:5-122:39
+	android:largeScreens
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:118:11-38
+	android:smallScreens
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:120:11-38
+	android:normalScreens
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:119:11-39
+	android:resizeable
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:121:11-36
+	android:anyDensity
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:122:11-36
+uses-sdk
+ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:123:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml:123:15-40
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\src\main\AndroidManifest.xml

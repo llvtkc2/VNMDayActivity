@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\libs\admob-sdk-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ee348046f8e0c7afe5af5240135c96302cc6d9f0">
+        <dex dex="C:\Users\HP 6300 Pro\Desktop\Hoang\Project\VNMDayActivity\app\build\intermediates\pre-dexed\debug\admob-sdk-android_5dc02bdd1577b8155f0bf0bf2816aa9143a63cf3.jar" />
+    </item>
+
+</items>

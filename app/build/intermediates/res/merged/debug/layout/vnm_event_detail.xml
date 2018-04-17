@@ -1,0 +1,319 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/event"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fafafa"
+        android:orientation="vertical"
+        android:padding="10sp">
+        <!-- CALENDARS -->
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/lunarCalendarRadio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Âm lịch"
+                android:textColor="@color/commonTextView" />
+
+            <RadioButton
+                android:id="@+id/solarCalendarRadio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dương lịch"
+                android:textColor="@color/commonTextView" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/calendarsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calendars_label"
+                android:textColor="@color/commonTextView" />
+
+            <Spinner
+                android:id="@+id/calendarsDropDown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5sp"
+                android:prompt="@string/calendars_label" />
+        </LinearLayout>
+        <!-- WHAT -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/whatLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_label"
+                android:textColor="@color/commonTextView" />
+
+            <EditText
+                android:id="@+id/titleEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:capitalize="words"
+                android:hint="@string/hint_what"
+                android:paddingLeft="5sp" />
+        </LinearLayout>
+
+        <!-- WHEN -->
+        <LinearLayout
+            android:id="@+id/whenContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fromLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_event_from_label"
+                android:textColor="@color/commonTextView" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/startDateButton"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:gravity="left|center_vertical" />
+
+                <Button
+                    android:id="@+id/startTimeButton"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="left|center_vertical" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/toLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_event_to_label"
+                android:textColor="@color/commonTextView" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/endDateButton"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:gravity="left|center_vertical" />
+
+                <Button
+                    android:id="@+id/endTimeButton"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="left|center_vertical" />
+            </LinearLayout>
+            <!--
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/edit_event_all_day_label"
+                    android:paddingTop="1dip"
+                    android:paddingRight="7dip"
+                    />
+                <CheckBox android:id="@+id/isAllDayCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dip"
+                    android:paddingBottom="15dip"
+                    android:paddingRight="1dip"/>
+            </LinearLayout>
+         -->
+        </LinearLayout>
+
+        <!-- WHERE -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+
+        <LinearLayout
+            android:id="@+id/whereContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/where_label"
+                android:textColor="@color/commonTextView" />
+
+            <EditText
+                android:id="@+id/locationEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:capitalize="sentences"
+                android:hint="@string/hint_where"
+                android:paddingLeft="5sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+        <!-- DESCRIPTION -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/descriptionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_label"
+                android:textColor="@color/commonTextView" />
+
+            <EditText
+                android:id="@+id/descriptionEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:capitalize="sentences"
+                android:hint="@string/hint_description"
+                android:paddingLeft="5sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+        <!-- REPEATS -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/repeatsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/repeats_label"
+                android:textColor="@color/commonTextView" />
+
+            <Spinner
+                android:id="@+id/repeatsDropDown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5sp"
+                android:prompt="@string/repeats_label" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@android:drawable/divider_horizontal_bright" />
+        <!-- REMINDERS -->
+        <View
+            android:id="@+id/remindersSeparator"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@android:drawable/divider_horizontal_dark" />
+
+        <LinearLayout
+            android:id="@+id/remindersContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/remindersLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reminders_label"
+                android:textColor="@color/commonTextView" />
+
+            <Spinner
+                android:id="@+id/remindersDropDown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5sp"
+                android:prompt="@string/reminders_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/numberYearsContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/numberYearsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_years_label"
+                android:textColor="@color/commonTextView" />
+
+            <Spinner
+                android:id="@+id/numberYearsDropDown"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5sp"
+                android:prompt="@string/select_number_years" />
+        </LinearLayout>
+
+        <!-- BUTTONS -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/bottom_bar"
+            android:orientation="horizontal"
+            android:paddingBottom="1dip"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:paddingTop="5dip">
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/save_label" />
+
+            <Button
+                android:id="@+id/discardButton"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/discard_label" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
